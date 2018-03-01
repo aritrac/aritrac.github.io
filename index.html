@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>Aritra's Page</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -15,19 +16,29 @@
   <div class="row">
     <div class="col-sm-2">
       <ul class="nav nav-pills nav-stacked">
-        <li role="presentation" class="active"><a href="#scroll1">Technologies</a></li>
-        <li role="presentation"><a href="#scroll1">Profile</a></li>
-        <li role="presentation"><a href="#">Messages</a></li>
+        <li role="presentation"><a href="#" id="aboutMe"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> About me</a></li>
+        <li role="presentation"><a href="#" id="profile"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Profile</a></li>
+        <li role="presentation"><a href="#" id="messages"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Messages</a></li>
       </ul>
     </div>
     <div class="col-sm-8">
-      <div class="panel panel-default">
+      <div class="panel panel-default aboutMe hideMe">
         <div class="panel-heading">My Tech XP</div>
+        <div class="panel-body"></div>
+      </div>
+      <div class="panel panel-default profile hideMe">
+        <div class="panel-heading">My Profile</div>
+        <div class="panel-body"></div>
+      </div>
+      <div class="panel panel-default messages hideMe">
+        <div class="panel-heading">My Messages</div>
         <div class="panel-body"></div>
       </div>
     </div>
     <div class="col-sm-2"></div>
   </div>
-</body>
+  <script type="text/javascript" src="scripts/custom.js">
 
+  </script>
+</body>
 </html>
