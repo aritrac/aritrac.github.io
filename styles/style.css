@@ -6,4 +6,19 @@
   padding-top: 5px;
   padding-bottom: 5px;
   line-height: 20px;
+  background-color: rgb(232, 236, 242);
+}
+
+.img-responsive {
+  height:70px;
+  align-self: center;
+}
+.display {
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  background-color: rgb(232, 236, 242);
 }
